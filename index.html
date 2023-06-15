@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .container{
+            width: 800px;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            color: black;
+            margin: 100px auto;
+        }
+
+        .time{font-size: 5vw;}
+        .greeting{font-size: 3vw;}
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p class="time"></p>
+        <p class="greeting"></p>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
